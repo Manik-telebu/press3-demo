@@ -78,13 +78,13 @@ public class ManagerTest extends BrowserFunctions {
 		Login login = new Login(driver, profileName, userName, passWord);
 		login.loginToProfile();
 		md.clickAgentAndSkillsIcon();
-		as.clickPlusIconForNewSkill();
+		//as.clickPlusIconForNewSkill();
 		as.createNewSkill();
-		as.addNewGroup();
-		as.addNewAgent();
+		//as.addNewGroup();
+		//as.addNewAgent();
 		md.logoutManager();
-		as.verifyAgentDetails();
-		as.verifySkillAndSkillGroup();
+		//as.verifyAgentDetails();
+		//as.verifySkillAndSkillGroup();
 	}
 
 	public void verifyCreateCompaign() throws InterruptedException {

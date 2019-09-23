@@ -1414,8 +1414,8 @@ public class AgentTest extends BrowserFunctions {
 		login.loginToManagerProfile();
 
 		managerDashBoard.clickAgentAndSkillsIcon();
-		agentSkilss.createSkill();
-		agentSkilss.verifyCreatedSkill();
+		//agentSkilss.createSkill();
+		//agentSkilss.verifyCreatedSkill();
 		// managetTest.verifyCreateAgent();
 	}
 
